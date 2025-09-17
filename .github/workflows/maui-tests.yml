@@ -1,5 +1,6 @@
 name: MAUI Unit Tests
- 
+ - name: Install MAUI Workload
+  run: dotnet workload install maui
 on:
   push:
     branches:
